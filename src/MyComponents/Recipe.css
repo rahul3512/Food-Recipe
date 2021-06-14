@@ -1,0 +1,28 @@
+.content{
+    
+    border-right: 2px solid rgb(56, 45, 45);
+    margin:auto;
+    margin-left: 30px;
+    width: 400px;
+    min-width: 400px;
+    border-radius: 10px;
+}
+.img{
+    border-radius: 1rem;
+
+}
+.main-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(189, 182, 184);
+}
+
+li{
+    font-size: 1.2rem;
+}
+
+h2{
+    margin-left: 20px;
+
+}
