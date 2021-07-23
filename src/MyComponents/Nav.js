@@ -75,8 +75,8 @@ function Nav({ parentCallback }) {
     const classes = useStyles();
     
     function send(e) {
-        
-        if (e.code == 'Enter') {
+        console.log(e)
+        if (e.keyCode == '13' || e.which == '13') {
             setSee(search);
             parentCallback(search);
         }

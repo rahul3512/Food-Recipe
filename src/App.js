@@ -37,14 +37,12 @@ function App() {
       <Nav parentCallback={callback} />
       <div className="App">
         {recipes.map((item) => (
-          <div key={item.recipe.uri} className="main-content">
             <Recipe
               title={item.recipe.label}
               calorie={item.recipe.calories}
               src={item.recipe.image}
               ingredients={item.recipe.ingredients}
-            />
-          </div>
+            />         
         ))}
       </div>
     </>
